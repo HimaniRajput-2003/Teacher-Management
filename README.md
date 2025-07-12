@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧑‍🏫 Teacher Management Interface
 
-## Getting Started
+A modern, responsive, and user-friendly Teacher Management Interface built using **Next.js**, **TypeScript**, and **Tailwind CSS**.  
+This project modernizes an outdated UI into a clean, scalable interface that includes dynamic schedules, qualification management, and smooth UX.
 
-First, run the development server:
+---
+
+## 🔗 Live Demo
+
+👉 [View Live on Vercel](https://your-vercel-link.vercel.app) *(Update this after deployment)*
+
+---
+
+## 🎥 Loom Video Walkthrough
+
+🎬 [Watch the Walkthrough](https://www.loom.com/share/your-video-id) *(Update this after recording)*
+
+---
+
+## 🚀 Features
+
+- ✨ **Modern UI/UX Design** using Tailwind & responsive layout
+- 🧾 **Teacher Profile** section with contact and personal details
+- ✅ **Add Qualifications** with validation and toast notifications
+- 📅 **Weekly Schedule Grid** – Click-to-toggle availability
+- 📱 **Mobile-First Design** – Works beautifully on all screen sizes
+- 🔔 **Feedback System** – Success and error alerts using `react-hot-toast`
+- ♿ **Accessibility** – WCAG-compliant colors, labels, and structure
+
+---
+
+## 🧰 Tech Stack
+
+| Tech              | Purpose                         |
+|-------------------|----------------------------------|
+| **Next.js 14**     | React framework for routing & SSR |
+| **TypeScript**     | Static typing                   |
+| **Tailwind CSS**   | Utility-first styling           |
+| **React Hot Toast**| User feedback                   |
+| **Vercel**         | Deployment                      |
+
+---
+
+## 📁 Folder Structure (app/)
+
+teacher-management-ui/
+├── src/
+│ ├── app/
+│ │ ├── components/
+│ │ │ ├── Header.tsx
+│ │ │ ├── Sidebar.tsx
+│ │ │ ├── TeacherProfile.tsx
+│ │ │ ├── ScheduleGrid.tsx
+│ │ │ └── AddQualificationModal.tsx
+│ │ ├── globals.css
+│ │ └── layout.tsx
+│ │ └── page.tsx
+├── public/
+├── tailwind.config.ts
+├── postcss.config.js
+├── tsconfig.json
+└── README.md
+
+
+## 🛠️ Installation & Setup
 
 ```bash
+# Clone the repository
+git clone https://github.com/HimaniRajput-2003/Teacher-Management.git
+
+# Navigate into the project directory
+cd Teacher-Management
+
+# Install dependencies
+npm install
+
+# Run the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

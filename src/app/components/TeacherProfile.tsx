@@ -5,12 +5,12 @@ import toast from 'react-hot-toast';
 
 export default function TeacherProfile() {
   const [teacher, setTeacher] = useState({
-    name: 'Alynia Allan',
+    name: 'Himani',
     role: 'Teacher',
-    birthDate: '1984-07-12',
-    email: 'alyniaallan@example.com',
-    phone: '416-848-9057',
-    address: '56 Osbourne Da Santos Cir, North York, Ontario, Canada',
+    birthDate: '2003-07-03',
+    email: 'himani@gmail.com',
+    phone: '9542525255',
+    address: 'Malviya Nagar, Gorakhpur',
     qualifications: [
       { name: 'Vocal Contemporary', rate: 28 },
       { name: 'Vocal Core', rate: 28 },

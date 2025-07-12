@@ -12,7 +12,8 @@ const navItems = [
 
 export default function Sidebar() {
   return (
-    <aside className="hidden md:block h-screen w-60 bg-gray-900 text-white p-5">
+   <aside className="h-screen w-60 bg-gray-900 text-white p-5 hidden md:block fixed top-0 left-0">
+
       <h2 className="text-xl font-bold mb-8">MySchool</h2>
       <ul className="space-y-5">
         {navItems.map((item, idx) => (

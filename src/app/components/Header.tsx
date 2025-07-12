@@ -2,6 +2,8 @@
 'use client';
 import React from 'react';
 
+
+
 export default function Header() {
   return (
     <header className="w-full bg-white shadow px-6 py-4 flex justify-between items-center">
